@@ -1,0 +1,16 @@
+# Rust build artifacts
+/target/
+
+# Library convention: lockfile is not committed for libraries
+Cargo.lock
+
+# rustfmt backups
+*.rs.bk
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
